@@ -1,0 +1,3 @@
+interface:
+  display_name: "Daily Check-in"
+  short_description: "Morning, afternoon and EOD work journal"

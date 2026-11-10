@@ -1,0 +1,3 @@
+interface:
+  display_name: "MR Policy Triage"
+  short_description: "Read-only triage of the review queue"

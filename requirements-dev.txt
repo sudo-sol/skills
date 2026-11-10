@@ -1,0 +1,2 @@
+# Only needed for repository checks, not for using the skills.
+PyYAML>=6.0.1,<7

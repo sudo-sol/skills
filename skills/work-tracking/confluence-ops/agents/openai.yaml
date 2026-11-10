@@ -1,0 +1,3 @@
+interface:
+  display_name: "Confluence Ops"
+  short_description: "Search, read and write Confluence pages"

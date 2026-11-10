@@ -1,0 +1,13 @@
+{
+  "name": "skills",
+  "owner": {
+    "name": "sudo-sol"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./",
+      "description": "Portable engineering, productivity, and work-tracking skills."
+    }
+  ]
+}
