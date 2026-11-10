@@ -1,0 +1,3 @@
+interface:
+  display_name: "Jira Work Management"
+  short_description: "Ticket drafting, refinement, sprint planning"

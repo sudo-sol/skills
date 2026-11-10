@@ -1,0 +1,3 @@
+interface:
+  display_name: "Memory Bank"
+  short_description: "Load and save working memory across sessions"

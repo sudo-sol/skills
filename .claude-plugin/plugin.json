@@ -1,0 +1,23 @@
+{
+  "name": "skills",
+  "version": "0.1.0",
+  "description": "Portable engineering, productivity, and work-tracking skills.",
+  "author": {
+    "name": "sudo-sol"
+  },
+  "repository": "https://github.com/sudo-sol/skills",
+  "license": "MIT",
+  "skills": [
+    "./skills/engineering/mr-policy-triage",
+    "./skills/engineering/runbook-authoring",
+    "./skills/engineering/standards-check",
+    "./skills/engineering/writing-skills",
+    "./skills/productivity/daily-check-in",
+    "./skills/productivity/drafting-for-others",
+    "./skills/productivity/memory-bank",
+    "./skills/setup/setup-skills",
+    "./skills/work-tracking/confluence-ops",
+    "./skills/work-tracking/jira-ops",
+    "./skills/work-tracking/jira-work-management"
+  ]
+}
