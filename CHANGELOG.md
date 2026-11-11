@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Add Zen, a productivity skill for working through one next step at a time and tracking
+  parked tasks during the conversation.
+
 - Consolidate license and attribution at the repository root; remove per-skill copies and
   update validation, authoring guidance, and redistribution instructions.
 
@@ -25,4 +28,4 @@
 
 ## 0.1.0 (unreleased initial package)
 
-- Initial release: 11 skills across setup, productivity, engineering, and work-tracking.
+- Initial release: 12 skills across setup, productivity, engineering, and work-tracking.

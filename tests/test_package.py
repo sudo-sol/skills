@@ -81,7 +81,7 @@ class PackageTests(unittest.TestCase):
         self.assertEqual(os.readlink(previous), str(self.base / 'missing-old-install'))
         self.assertEqual((existing / 'keep').read_text(), 'user content')
         self.assertEqual((dest / 'jira-ops').resolve(), self.repo / 'skills/work-tracking/jira-ops')
-        self.assertEqual(len(list(dest.iterdir())), 11)
+        self.assertEqual(len(list(dest.iterdir())), 12)
 
     def test_linker_rejects_internal_destination(self):
         result = subprocess.run(['bash', 'scripts/link-skills.sh', str(self.repo / 'new-folder')], cwd=self.repo, capture_output=True)

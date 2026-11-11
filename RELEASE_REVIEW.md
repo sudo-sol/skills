@@ -63,3 +63,11 @@ Executed with Python 3.12 and PyYAML 6.0.1:
 - The shared `.github/scripts/check_completion.py` gate is not installed in this standalone
   repository, so that completion check could not run. No existing open GitHub issue was found
   to update. Repository checks above are the recorded verification, not a CI or release result.
+
+## Zen import, 2026-11-10
+
+Imported the skill entrypoint from the maintainer-supplied archive into `skills/productivity/zen/`
+and registered it in the plugin and README. Package validation covered all 12 skills, all 11
+regression tests passed, and the skill-creator validator accepted the Zen entrypoint.
+Live client invocation remains unverified. No open issue with Zen in its title was found.
+The shared completion check remains unavailable in this repository.
