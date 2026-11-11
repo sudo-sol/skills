@@ -21,6 +21,7 @@ maintained separately. See [acknowledgements and retained notices](./THIRD_PARTY
 | Configure this collection for a repository | [setup-skills](./skills/setup/setup-skills/SKILL.md) | A shared configuration section in AGENTS.md |
 | Resume work after a break or context reset | [memory-bank](./skills/productivity/memory-bank/SKILL.md) | Updated Markdown records with a clear owner for each fact |
 | Plan and close out the workday | [daily-check-in](./skills/productivity/daily-check-in/SKILL.md) | Journal entries, outcomes, and a starting point for tomorrow |
+| Focus on one step when work piles up | [zen](./skills/productivity/zen/SKILL.md) | A concrete next step and a short list of parked work |
 | Prepare a message for someone else | [drafting-for-others](./skills/productivity/drafting-for-others/SKILL.md) | An audience-aware draft with context and a proposed next step |
 | Document an operational procedure | [runbook-authoring](./skills/engineering/runbook-authoring/SKILL.md) | Verified steps, expected results, recovery, and escalation |
 | Create or improve an agent skill | [writing-skills](./skills/engineering/writing-skills/SKILL.md) | Focused instructions and metadata for supported clients |
@@ -102,6 +103,9 @@ Setup requires a user request: its metadata disables automatic invocation in Cla
 and Codex. The remaining skills permit selection by a matching task. Clients may interpret
 these settings differently, so verify invocation behavior in the client you use.
 
+To start Zen mode, ask for one step at a time or invoke `$zen` in Codex or `/skills:zen`
+in Claude Code. Say "zen off" to exit and see any parked items.
+
 A workflow may need another installed skill. Resolve it using the client's loader and
 namespace, such as `skills:jira-ops`, or open its installed `SKILL.md` directly. If that
 skill is absent, report the dependency and install it before resuming the affected steps.
@@ -147,7 +151,7 @@ External clients, tools, and services retain their own licenses and terms.
 
 ## Packaging and verification
 
-`.claude-plugin/plugin.json` registers the 11 skill folders explicitly so the category
+`.claude-plugin/plugin.json` registers the 12 skill folders explicitly so the category
 directories are not mistaken for individual skills. `.claude-plugin/marketplace.json`
 registers the repository root as the `skills` plugin in the `skills` marketplace.
 The version remains `0.1.0` for the unreleased initial package. Unreleased fixes are in
@@ -197,7 +201,7 @@ Skills are grouped by the work they support:
 | Folder | Scope |
 | --- | --- |
 | `skills/setup/` | Collection configuration |
-| `skills/productivity/` | Work continuity, journaling, and communication |
+| `skills/productivity/` | Work continuity, journaling, focus, and communication |
 | `skills/engineering/` | Reviews, standards, runbooks, and skill authoring |
 | `skills/work-tracking/` | Jira workflows and Confluence content |
 
